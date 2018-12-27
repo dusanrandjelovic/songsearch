@@ -23,7 +23,7 @@ function ucitatiSugestije(e) {
             <img src="${pesma.album.cover}" alt="Omot albuma">
             <div>
               <audio src="${pesma.preview}" controls></audio>
-              <a href="${pesma.link}" title="Deezer" target="_blank"><img src="slike/deezer-logo.svg" width="50" alt="Deezer" title="Pusti na Deezeru"></a>
+              <a href="${pesma.link}" title="Deezer" target="_blank"><img src="http://gigiradics.com/wp-content/uploads/2015/04/deezer-logo-circle.png" width="50" alt="Deezer" title="Pusti na Deezeru"></a>
             </div>
             <p>Trajanje: ${pesma.duration}s</p>
             <p>Eksplicitan sadrzaj: ${pesma.explicit_lyrics ? "da" : "ne"}</p>
