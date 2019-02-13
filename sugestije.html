@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="lyrics search API">
+  <meta name="keywords" content="lyrics search song find api">
+  <meta name="author" content="Dusan Randjelovic | dusanrandjelovic92@gmail.com">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sugestije pesama</title>
+  <title>Find song</title>
     <style>
         body {
             margin: 0;
@@ -150,7 +154,6 @@
                 opacity: 0.9;
                 padding-top: 9px;
                 padding-left: 0;
-                padding-bottom: -32px;
                 margin-bottom: -12px;
               height: 150px;
             }
@@ -161,26 +164,26 @@
 <body>
     <header>
         <div>
-            <img src="http://gigiradics.com/wp-content/uploads/2015/04/deezer-logo-circle.png" height="50" style="padding-top: 6px;"/>
+            <img src="http://gigiradics.com/wp-content/uploads/2015/04/deezer-logo-circle.png" height="50" style="padding-top: 6px;" alt="deezer logo"/>
             <h2>Deezer</h2>
         </div>
         <nav>
-            <a href="index.html">Trazi tekst pesme</a>
-            <a href="sugestije.html">Nadji pesmu i izvodjaca</a>
+            <a href="index.html">Find lyrics</a>
+            <a href="sugestije.html">Find song informations</a>
         </nav>
     </header>
 
     <main>
         <div class="poz">
-            <h1>Pronadji pesmu</h1>
+            <h1>Find song informations</h1>
             <form id="forma">
-                <label for="fraza">Unesite trazeni pojam: </label>
+                <label for="fraza">Type any word: </label>
                 <input id="fraza">
-                <button id="dugme">Potrazi</button>
+                <button id="dugme">Search</button>
             </form>
         </div>
 
-        <img id="loader" src="loader.gif" alt="loading..." style="display: none">
+        <img id="loader" src="slike/loader.gif" alt="loading..." style="display: none">
         <div id="rezultat"></div>
 
     </main>
@@ -188,7 +191,7 @@
 
     <footer>
         <div>
-            <img src="http://gigiradics.com/wp-content/uploads/2015/04/deezer-logo-circle.png" height="50" />
+            <img src="http://gigiradics.com/wp-content/uploads/2015/04/deezer-logo-circle.png" height="50" alt="deezer logo"/>
             <h2>Deezer</h2>
             <p>&copy; Design by Dusan Randjelovic</p>
         </div>
