@@ -8,7 +8,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Find lyrics</title>
-  <link rel="stylesheet" href="style.css">
     <style>
         body {
             margin: 0;
@@ -31,7 +30,7 @@
             z-index: 3;
         }
         nav {
-            background: -webkit-linear-gradient(left, green, red);
+            background: linear-gradient(to left, green, red);
             width: 100%;
             display: flex;
             justify-content: center;
@@ -59,7 +58,7 @@
         }
         header nav a:hover {
             color: white;
-            background: -webkit-linear-gradient(crimson, red);
+            background: linear-gradient(crimson, red);
         }
         main {
             padding-top: 315px;
@@ -69,7 +68,7 @@
           z-index: 1;
         }
         .poz {
-          background: -webkit-linear-gradient(left, red, green);
+          background: linear-gradient(to left, red, green);
           opacity: 0.9;
           padding: 8px;
 
@@ -91,10 +90,11 @@
         #naslov {
           font-weight: 600;
           font-size: 26px;
+          text-transform: capitalize;
         }
         footer {
             padding-left: 10%;
-            background: -webkit-linear-gradient(left, red, green);
+            background: linear-gradient(to left, red, green);
             opacity: 0.9;
             height: 150px;
             padding-top: 9px;
@@ -123,7 +123,7 @@
             flex-direction: row;
             padding-left: 6%;
             padding-right: 6%;
-            background: -webkit-linear-gradient(left, green, red);
+            background: linear-gradient(to left, green, red);
             background-size: cover;
             width: 100%;
             top: -15px;
@@ -155,6 +155,7 @@
                 color: darkred;
             }
             label {
+              display: block;
                 font-size: 18px;
                 color: green;
                 margin-top: 2%;
@@ -170,7 +171,7 @@
             footer {
                 text-align: center;
                 width: 100%;
-                background: -webkit-linear-gradient(left, red, green);
+                background: linear-gradient(to left, red, green);
                 color: white;
                 opacity: 0.9;
                 height: 150px;
